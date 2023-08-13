@@ -1,0 +1,121 @@
+header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+header nav ul li {
+  margin: 0 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #000000;
+}
+header nav ul li a:hover {
+  -webkit-text-decoration: underline #a0a1a4 wavy;
+          text-decoration: underline #a0a1a4 wavy;
+}
+
+main #intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #intro img {
+  border-radius: 50%;
+  width: 500px;
+}
+main #intro div {
+  margin-left: 20px;
+  font-size: 2rem;
+}
+main #about {
+  padding: 50px 200px;
+  text-align: center;
+}
+main #about h1 {
+  margin-bottom: 20px;
+}
+main #projects {
+  padding: 50px;
+  text-align: center;
+}
+main #projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+main #projects ul li {
+  margin: 20px;
+  border: solid;
+  border-radius: 20px;
+  padding: 20px 0;
+  flex: 0 0 300px;
+}
+main #projects ul li img {
+  margin: 10px;
+  width: 300px;
+}
+main #projects ul li a {
+  display: inline-block;
+  margin: 10px 5px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  background: #e8e8e8;
+}
+main #projects ul li a:hover {
+  color: #e8e8e8;
+  background: #000000;
+}
+main #contact {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #a0a1a4;
+}
+main #contact div {
+  text-align: center;
+}
+main #contact div h1 {
+  display: inline-block;
+}
+main #contact div a {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  background: white;
+}
+main #contact div a:hover {
+  color: white;
+  background: #000000;
+}
+main #contact div .email {
+  border: solid;
+  font-size: 1.25rem;
+}
+main #contact div .social-media {
+  border-radius: 40px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: #000000;
+}/*# sourceMappingURL=App.css.map */

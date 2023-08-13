@@ -1,0 +1,147 @@
+$light: #e8e8e8;
+$mid-color: #a0a1a4;
+$dark: #000000;
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            margin: 0 30px;
+
+            a {
+                text-decoration: none;
+                font-size: 1.25rem;
+                font-weight: 800;
+                color: $dark;
+
+                &:hover {
+                    text-decoration: underline $mid-color wavy;
+                }
+            }
+        }
+    }
+}
+
+main {
+    #intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            width: 500px;
+        }
+
+        div {
+            margin-left: 20px;
+            font-size: 2rem;
+        }
+    }
+
+    #about {
+        padding: 50px 200px;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+
+    #projects {
+        padding: 50px;
+        text-align: center;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style-type: none;
+
+            li {
+                margin: 20px;
+                border: solid;
+                border-radius: 20px;
+                padding: 20px 0;
+                flex: 0 0 300px;
+
+                img {
+                    margin: 10px;
+                    width: 300px;
+                }
+
+                a {
+                    display: inline-block;
+                    margin: 10px 5px;
+                    border-radius: 40px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: $dark;
+                    background: $light;
+
+                    &:hover {
+                        color: $light;
+                        background: $dark;
+                    }
+                }
+            }
+        }
+    }
+
+    #contact {
+        padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: $mid-color;
+
+        div {
+            text-align: center;
+
+            h1 {
+                display: inline-block;
+            }
+
+            a {
+                display: inline-block;
+                margin: 20px;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: $dark;
+                background: white;
+
+                &:hover {
+                    color: white;
+                    background: $dark;
+                }
+            }
+
+            .email {
+                border: solid;
+                font-size: 1.25rem;
+            }
+
+            .social-media {
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: $dark;
+}
