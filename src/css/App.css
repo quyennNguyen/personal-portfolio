@@ -46,30 +46,30 @@ main #intro div {
   font-size: 2rem;
 }
 main #about {
-  margin: 100px auto;
-  width: 60vw;
+  margin: 100px;
 }
 main #about h1 {
   text-align: center;
 }
 main #about p {
-  margin: 20px;
+  margin-top: 20px;
   font-size: 1.25rem;
   text-align: justify;
   line-height: 1.75rem;
 }
-main #about a {
+main #about p a {
   display: block;
-  margin: 0 20px 0 auto;
+  margin-left: auto;
   padding: 10px 20px;
   width: -moz-fit-content;
   width: fit-content;
   font-weight: 700;
+  font-size: 1rem;
   text-decoration: none;
   color: #000000;
   background: #e8e8e8;
 }
-main #about a:hover {
+main #about p a:hover {
   color: #e8e8e8;
   background: #000000;
 }
@@ -167,5 +167,11 @@ footer {
   87% {
     border-right: solid;
     border-bottom: solid;
+  }
+}
+@media screen and (min-width: 1300px) {
+  #about p {
+    margin: 20px auto;
+    width: 50vw;
   }
 }/*# sourceMappingURL=App.css.map */

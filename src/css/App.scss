@@ -59,33 +59,33 @@ main {
     }
 
     #about {
-        margin: 100px auto;
-        width: 60vw;
+        margin: 100px;
 
         h1 {
             text-align: center;
         }
 
         p {
-            margin: 20px;
+            margin-top: 20px;
             font-size: 1.25rem;
             text-align: justify;
             line-height: 1.75rem;
-        }
 
-        a {
-            display: block;
-            margin: 0 20px 0 auto;
-            padding: 10px 20px;
-            width: fit-content;
-            font-weight: 700;
-            text-decoration: none;
-            color: $dark;
-            background: $light;
+            a {
+                display: block;
+                margin-left: auto;
+                padding: 10px 20px;
+                width: fit-content;
+                font-weight: 700;
+                font-size: 1rem;
+                text-decoration: none;
+                color: $dark;
+                background: $light;
 
-            &:hover {
-                color: $light;
-                background: $dark;
+                &:hover {
+                    color: $light;
+                    background: $dark;
+                }
             }
         }
     }
@@ -203,5 +203,12 @@ footer {
     87% {
         border-right: solid;
         border-bottom: solid;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #about p {
+        margin: 20px auto;
+        width: 50vw;
     }
 }

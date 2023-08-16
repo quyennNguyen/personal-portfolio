@@ -44,8 +44,8 @@ function About() {
         front-end and back-end technologies. I am eager to bring my dedication,
         adaptability, and problem-solving skills to contribute effectively to a
         dynamic development team and create impactful digital experiences.
+        <a href="#contact">Let's Connect</a>
       </p>
-      <a href="#contact">Let's Connect</a>
     </section>
   );
 }
